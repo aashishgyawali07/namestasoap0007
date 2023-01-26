@@ -1,0 +1,1087 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: none;
+}
+
+.aboutus {
+    height: 260vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.topnav {
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(35 37 74);
+}
+
+
+.nav-1 {
+    height: 6vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-center-1 {
+    height: 5vh;
+    width: 85%;
+    /* background-color: rgb(222, 91, 91); */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-num-1 {
+    height: 5vh;
+    width: 15%;
+    /* background-color: rgb(128, 179, 10); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-num-1 p {
+    font-size: 16px;
+    font-family: serif;
+    color: #fff;
+}
+
+.contact-num-1 i {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.email-address-1 {
+    height: 5vh;
+    width: 15%;
+    /* background-color: rgb(128, 179, 10); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-address-1 p {
+    color: #fff;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.email-address-1 i {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+.icon-A {
+    height: 5vh;
+    width: 25%;
+    /* background-color: rgb(4, 173, 229); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facebook {
+    height: 5vh;
+    width: 10%;
+    /* background-color: rgb(0, 73, 156); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook i {
+    font-size: 21px;
+    color: #fff;
+
+}
+
+.twitter {
+    height: 5vh;
+    width: 10%;
+    /* background-color: rgb(0, 73, 156); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter i {
+    font-size: 21px;
+    color: #fff;
+
+}
+
+
+
+.insta {
+    height: 5vh;
+    width: 10%;
+    /* background-color: rgb(0, 73, 156); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta i {
+    font-size: 21px;
+    color: #fff;
+
+}
+
+
+.pinterest {
+    height: 5vh;
+    width: 10%;
+    /* background-color: rgb(0, 73, 156); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pinterest i {
+    font-size: 21px;
+    color: #fff;
+
+}
+@media (max-width: 900px){
+    .nav-1{
+       display: none;
+    }
+    .topnav{
+        height: 10vh;
+        width: auto;
+    }
+   
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+
+
+nav{
+    background-color: rgb(5 137 241 / 29%);
+    height: 85px;
+    width: 100%;
+}
+
+label.logo {
+ height: 80px;
+ width: 80px;
+ line-height: 80px;
+ padding: 0 100px;
+}
+
+/* label.logo img{
+    height: 100%;
+    width: 100%;
+} */
+
+
+nav ul{
+    float: right;
+    margin-right: 339px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo {
+        height: 80px;
+        width: 80px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+ul li a:hover {
+     color: yellow;
+ }
+
+ ul li a::after {
+     content: '';
+     display: block;
+     width: 0%;
+     height: 2px;
+     background-color: rgb(242, 255, 0);
+     transition: width.3s;
+
+ }
+
+ ul li a:hover::after {
+     width: 100%;
+     transition: width.3s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.image {
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(../img/slide5.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.image-opacity {
+    /* height: 30vh; */
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.463); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box-page {
+    height: 20vh;
+    width: 30%;
+    background-color: rgba(19, 1, 186, 0.53);
+}
+
+.top-contact-box-page {
+    height: 10vh;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+.top-contact-box-page h1 {
+    text-align: center;
+    line-height: 10vh;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.bottom-contact-box-page {
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(151, 42, 42); */
+}
+
+.bottom-contact-box-page h3 {
+    text-align: center;
+    line-height: 10vh;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us {
+    height: 80vh;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-about-us {
+    height: 60vh;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.small-about-us-1 {
+    height: 55vh;
+    width: 50%;
+    /* background-color: rgb(10, 128, 158); */
+}
+
+.first-box {
+    height: 5vh;
+    width: auto;
+    /* background-color: rgb(35, 97, 136); */
+}
+
+hr {
+    height: 2px;
+    width: 75px;
+    background-color: rgb(239, 131, 0);
+}
+
+.first-box h1 {
+    color: rgb(239, 131, 0);
+    line-height: 5vh;
+    font-size: 27px;
+}
+
+.second-box {
+    height: 15vh;
+    width: auto;
+    /* background-color: rgb(57, 4, 107); */
+}
+
+.second-box h1 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.third-box {
+    height: 20vh;
+    width: 81%;
+    /* background-color: rgb(135, 22, 22); */
+}
+
+.third-box p {
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--font-color);
+    font-family: 'Sarabun', sans-serif;
+}
+
+.four-box {
+    height: 15vh;
+    width: 36%;
+    /* background-color: rgb(158, 146, 7); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-1 {
+    height: 6vh;
+    width: 115px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-1 h1 {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.btn-1:hover {
+    background-color: rgb(181, 99, 0);
+}
+
+.btn-2 {
+    height: 6vh;
+    width: 115px;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: orange;
+    border-bottom: 2px solid orange;
+    border-radius: 7px;
+}
+
+.btn-2 h1 {
+    font-size: 19px;
+    color: orange;
+    font-weight: 600;
+}
+
+
+.btn-2:hover {
+    background-color: rgb(181, 99, 0);
+    color: #fff;
+}
+
+.small-about-us-2 {
+    height: 55vh;
+    width: 50%;
+    /* background-color: rgb(10, 158, 23); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-about-us-image-2 {
+    height: 55vh;
+    width: 90%;
+    background-color: #fff;
+    background-image: url(../img/slide5.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* aboutourcompany====================================================== */
+
+.aboutourcompany {
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.small-aboutourcompany {
+    height: 60vh;
+    width: 80%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.aboutus-container-1 {
+    height: 60vh;
+    width: 50%;
+    /* background-color: rgb(118, 170, 28); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-aboutus-container-1 {
+    height: 42vh;
+    width: 90%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-nav-1 {
+    height: 5vh;
+    width: 100%;
+    /* background-color: rgb(237, 216, 30); */
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-nav-1 h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F45D01;
+}
+
+.about-nav-2 {
+    height: 8vh;
+    width: 100%;
+    /* background-color: rgb(99, 237, 30); */
+    display: flex;
+    align-items: center;
+}
+
+.about-nav-2 h1 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #141414;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.about-paragraph-1 {
+    height: 15vh;
+    width: 100%;
+    /* background-color: rgba(20, 120, 137, 0.525); */
+}
+
+.about-paragraph-1 p {
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-paragraph-2 {
+    height: 15vh;
+    width: 100%;
+    /* background-color: rgba(107, 14, 70, 0.189); */
+}
+
+.about-paragraph-2 p {
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.aboutus-container-2 {
+    height: 60vh;
+    width: 50%;
+    /* background-color: rgb(28, 132, 170); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-aboutus-container-2 {
+    height: 45vh;
+    width: 90%;
+    /* background-color: #fff; */
+    background-image: url(../img/namestasoap.jpg);
+    background-size: 100% 100%;
+}
+
+/* <--------------mobile responsive------------------> */
+@media (max-width:900px) {
+    /* <-------nav-part-------> */
+   
+    .image {
+        height: auto;
+        width: auto;
+    }
+
+    .image-opacity {
+        height: auto;
+        width: auto;
+    }
+
+    .contact-box-page {
+        height: auto;
+        width: 94%;
+    }
+
+    .top-contact-box-page {
+        height: auto;
+        width: auto;
+    }
+
+    .top-contact-box-page h1 {
+        color: rgb(255, 255, 255);
+    }
+
+    .bottom-contact-box-page h3 {
+        color: red;
+    }
+
+    .bottom-contact-box-page {
+        height: auto;
+        width: auto;
+    }
+     
+    .about-us {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .small-about-us {
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .small-about-us-1 {
+        width: 80%;
+    }
+
+    .common {
+        width: 100%;
+    }
+
+    .four-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .second-box h1 {
+        font-size: 21px !important;
+    }
+
+    .small-about-us-2 {
+        height: auto;
+        width: 80%;
+    }
+
+    .small-about-us-image-2 {
+        /* height: 35vh;
+       width: 150% ; */
+        /* display: none; */
+        height: 27vh;
+        width: 150%;
+    }
+    
+
+    /* <----next about compay----> */
+    .aboutourcompany{
+        height: auto;
+        width: auto;
+    }
+    .small-aboutourcompany{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutus-container-2{
+        height: 40vh;
+        width: 70%;
+    }
+    .small-aboutus-container-2{
+        height: 30vh;
+        width: 100%;
+    }
+    .aboutus-container-1{
+        height: auto;
+        width: 80%;
+    }
+    .small-aboutus-container-1{
+        height: auto;
+        width: auto;
+    }
+
+    /* <-------font-size: ; ------->*/
+    .first-box h1{
+        font-size: 20px !important;
+     }
+     .second-box h1 {
+         font-size: 15px !important;
+     }
+
+     .third-box p {
+        font-size: 12px;
+    }
+
+    .about-nav-1 h1{
+        font-size: 15px !important;
+    }
+
+    .about-nav-2 h1{
+        font-size: 18px !important;
+    }
+    .about-paragraph-1 p{
+     font-size: 12px;
+    }
+     
+    .about-paragraph-2 p{
+        font-size: 12px;
+       }
+
+}
+
+
+/* <!-- Message from CEO OF NAMESTA SOAP COMPANY --> */
+ .messagefromceo{
+    height: 70vh;
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .mid-messagefromceo{
+    height: 60vh;
+    width: 80%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: row;
+ }
+
+
+.rightpart-ofmessage{
+    height: 60vh;
+    width: 60%;
+    /* background-color: rgb(81, 3, 75); */
+}
+
+.nav-part{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-part h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: orange;
+    border-bottom: orange solid 3px;
+}
+
+.paragraph-part{
+    height: 50vh;
+    width: 100%;
+    /* background-color: orange; */
+}
+
+.paragraph-part p{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+    font-family: 'Lato', sans-serif;
+    text-justify: auto;
+}
+
+.leftpart-ofmessage{
+    height: 60vh;
+    width: 40%;
+    /* background-color: rgb(34, 0, 108); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-part{
+    height: 50vh;
+    width: 80%;
+    /* background-color: #fff; */
+}
+.img-part img{
+    height: 424px;
+    width: 432px;
+}
+
+
+
+/* <------------------mobile responsive-------------> */
+@media (max-width: 900px){
+    .messagefromceo{
+        height: auto;
+        width: auto;
+    }
+    .mid-messagefromceo{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightpart-ofmessage{
+        height: auto;
+        width: 80%;
+    }
+    .nav-part{
+        height: 10vh;
+        width: auto;
+    }
+    .nav-part h1{
+        margin-top: 18px;
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .paragraph-part{
+        height: auto;
+        width: auto;
+    }
+    .paragraph-part p{
+        font-size: 12px;
+    }
+
+    .img-part{
+        height: 30vh;
+        width: 100%;
+    
+    }
+
+    .img-part img{
+        height:45vh;
+    }
+}
+
+
+
+
+/* container-las--------------------------------------------------------------------------------------t */
+.go {
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    /* align-items: center; */
+}
+
+.travel {
+    height: 50vh;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.go-travel {
+    width: 30%;
+    margin-top: 5vh;
+    /* background-color: aqua; */
+}
+
+.tae {
+    font-size: 20px;
+}
+
+.tae p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* 
+.payment{
+   height: 20vh;
+   width: 100%;
+   background-color: rgb(255, 0, 0);
+}
+
+.nav-payment{
+   height: 5vh;
+   width: 100%;
+   background-color: rgb(130, 244, 197);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+
+.contact {
+    height: 45vh;
+    width: 27%;
+    margin-top: 5vh;
+    /* background-color: cadetblue; */
+}
+
+.you {
+    height: 10vh;
+    /* background-color: yellowgreen; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.you h1 {
+    color: red;
+}
+
+.bunny li {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.bunny li i {
+    padding: 5px;
+}
+
+.email {
+    height: 45vh;
+    width: 35%;
+    margin-top: 5vh;
+    /* background-color: rgb(243, 71, 3); */
+}
+
+.hero {
+    width: 90%;
+    margin-top: 20px;
+
+}
+
+.hero h3 {
+    font-family: serif;
+}
+
+#sign {
+    background: #fff;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 14px;
+    width: 45% !important;
+    border: none;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.sign button {
+    background-color: orangered;
+    padding: 12px 15px;
+    color: aliceblue;
+    font-size: 14px;
+    width: 20%;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.icon li {
+    padding: 10px;
+}
+
+.v {
+    height: 3vh;
+    background-color: rgba(0, 0, 0, 0.811);
+    margin-top: 1px;
+}
+
+.v h1 {
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.v h1 i {
+    padding: 3px;
+    color: red;
+}
+
+
+
+@media (max-width:900px){
+    .go{
+        height: auto;
+        width: auto;
+    }
+     .travel{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .go-travel{
+        width: 100%;
+     }
+     .contact{
+        width: 100%;
+     }
+     .email{
+        width: 100%;
+     }
+
+ }
+/* container-las--------------------------------------------------------------------------------------t */
